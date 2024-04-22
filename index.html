@@ -5,7 +5,11 @@
     <title>UNC Golf App</title>
     <meta name="author" content="Adtile">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/indexStyles.css">
     <script src="js/responsive-nav.js"></script>
   </head>
   <body>
@@ -27,6 +31,86 @@
           </nav>
         </div>
       </div> <!-- Closing navBar Div-->
+
+      <div id="mainContentWrapper"> 
+        <div id = "mainContentOverview" class = "mainContentCard">
+          <div class="mainContentHeader">
+            <p class="mainContentHeaderText">Overview</p>
+          </div>
+          <div class="mainContentBody">
+            <p class="mainContentBodyText">
+              We have created an app for the new UNC Golf Practice Facility. 
+              The app is being designed to serve anyone who uses the new practice facility including guests, 
+              team members, alumni, and coaches. <br /> <br /> We hope that this app will gamify practice at the facility 
+              and increase competition between players which will not only drive more practice but 
+              will also increase focus.
+            </p>
+          </div>
+        </div> <!-- closing mainContentOverview -->
+
+        <div id = "mainContentAppSections" class = "mainContentCard">
+          <div class="mainContentHeader">
+            <p class="mainContentHeaderText">App Sections</p>
+          </div>
+          <div class="mainContentBody">
+
+            <div id = "firstInnerCard"  class="innerCard">
+              <div class = "innerCardHeader">
+                <p class="InnerCardHeaderText">Dynamic Map</p> 
+              </div>
+              <div class = "innerCardBody">
+                <p class="InnerCardBodyText">
+                  Gives users an overview of the facility, and provides measurement capabilities. 
+                </p> 
+              </div>
+            </div> <!-- closing innerCard -->
+
+            <div class="innerCard">
+              <div class = "innerCardHeader">
+                <p class="InnerCardHeaderText">Drills</p> 
+              </div>
+              <div class = "innerCardBody">
+                <p class="InnerCardBodyText">
+                  A list of drills with the ability to record performance and automatically 
+                  send push notifications when completed.
+                </p> 
+              </div>
+            </div> <!-- closing innerCard -->
+
+            <div class="innerCard">
+              <div class = "innerCardHeader">
+                <p class="InnerCardHeaderText">Leaderboard</p> 
+              </div>
+              <div class = "innerCardBody">
+                <p class="InnerCardBodyText">
+                  Provides a place for everyone to compete and lists player's performance on drills.
+                </p> 
+              </div>
+            </div> <!-- closing innerCard -->
+
+            <div class="innerCard">
+              <div class = "innerCardHeader">
+                <p class="InnerCardHeaderText">Admin</p> 
+              </div>
+              <div class = "innerCardBody">
+                <p class="InnerCardBodyText">
+                  Will allow coaches to gauge players performance throughout the facility 
+                  and manage users on the app.
+                </p> 
+              </div>
+            </div> <!-- closing innerCard -->
+
+          </div>
+        </div> <!-- closing mainContentAppSections -->
+
+        <div id = "appScreenshot" class="mainContentCard">
+          <div class="mainContentHeader">
+            <p class="mainContentHeaderText">App Screenshot</p>
+          </div>
+          <img id= "mainAppScreenshot" src="/media/mainAppScreenshot.jpeg" alt="A screenshot of the main app screen">
+        </div>
+
+      </div> <!-- closing mainContentWrapper -->
 
       <div id = "footer">
         <footer><h5 id= "footerText">© Elijah Bassett, Bek Salevich</h5></footer>
