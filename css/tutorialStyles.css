@@ -1,0 +1,110 @@
+:root {
+    --main-color:#4b9cd3;
+    --secondary-color:#004589;
+    --accent-color:#FACF5A;
+    --light-grey-color:#F3F3F3;
+    --text-color:#232323;
+}
+
+
+#mainContentWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tutorialHeadingText {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.darkBlueCard {
+  background-color: var(--secondary-color);
+}
+
+.lightBlueCard {
+  background-color: var(--main-color);
+}
+
+.cardHeaderText {
+  font-size: 25px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.cardBodyTextList {
+  font-size: 15px;
+  margin-bottom: 0;
+  width: -webkit-fill-available;
+}
+
+.mainContentHeaderText{
+  color: var(--main-color);
+  font-size: 25px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.screenshotWrapper {
+  align-self: flex-end;
+  margin-left: 15px;
+}
+
+.screenshotWrapper:hover  {
+  cursor: pointer;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: row;
+}
+
+#mainImg {
+  width: 200px;
+}
+
+.expandButton {
+  padding: 1px 6px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+#expandButtonLink {
+  color: inherit; 
+  text-decoration: inherit; 
+}
+
+#lastCard {
+  margin-bottom: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  #cardsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .darkBlueCard {
+    margin-right: 30px;
+  }
+  #lastCard {
+    margin-bottom: 0;
+  }
+}

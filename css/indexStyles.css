@@ -67,6 +67,7 @@
 @media screen and (min-width: 768px) {
   #mainContentWrapper {
     flex-direction: row;
+    justify-content: center;
   }
   #mainContentLeft {
     margin-right: 20px;
