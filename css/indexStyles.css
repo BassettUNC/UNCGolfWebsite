@@ -58,12 +58,21 @@
 
 #mainAppScreenshot {
   max-width: 400px;
-  margin: 0 auto;
   width: 80%;
   margin: 15px auto;
+  border-radius: 15px;
 }
 
 
 @media screen and (min-width: 768px) {
-
+  #mainContentWrapper {
+    flex-direction: row;
+  }
+  #mainContentLeft {
+    margin-right: 20px;
+    width: 50%;
+  }
+  #mainContentAppSections {
+    margin-bottom: 70px;
+  }
 }
