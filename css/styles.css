@@ -156,7 +156,7 @@ header {
   margin: 0px;
 }
 
-.menu-item:hover, .nav-collapse a:hover {
+.menu-item:hover, .menu-item:focus .nav-collapse, a:hover, a:focus {
   font-weight: bold;
   color: var(--light-grey-color);
 }
