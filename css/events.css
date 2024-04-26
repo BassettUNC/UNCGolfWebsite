@@ -44,7 +44,7 @@ h2 {
     max-width: 160px;
 }
 
-.add-to-calendar:hover {
+.add-to-calendar:hover, .add-to-calendar:focus {
     background-color: #bdc4c8; 
 }
 
