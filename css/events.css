@@ -57,6 +57,10 @@ footer {
     left: 0;
     bottom: 0;
 }
+
+#events {
+    padding: 25px;
+}
   
 #footerText {
     padding-top: 15px;
