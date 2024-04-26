@@ -8,6 +8,10 @@ h2 {
     margin-left: 20px;
 }
 
+.event-list {
+    overflow:scroll;
+  }
+
 .event {
     background: #f9f9f9;
     margin: 0.5em 0;
@@ -41,7 +45,22 @@ h2 {
 }
 
 .add-to-calendar:hover {
-    background-color: #003559; 
+    background-color: #bdc4c8; 
+}
+
+footer {
+    background-color: var(--main-color);
+    width: 100%;
+    color: white;
+    height: 55px;
+    position: static;
+    left: 0;
+    bottom: 0;
+}
+  
+#footerText {
+    padding-top: 15px;
+    padding-left: 10px;
 }
 
 @media (min-width: 1024px) {

@@ -4,7 +4,7 @@
 }
 
 .contact-form-section h1 {
-    color: #004d7a; /* UNC blue */
+    color: #004d7a; 
     text-align: center;
 }
 
@@ -61,6 +61,21 @@
 
 .submit-button:hover {
     background-color: #0056b3;
+}
+
+footer {
+    background-color: var(--main-color);
+    width: 100%;
+    color: white;
+    height: 55px;
+    position: static;
+    left: 0;
+    bottom: 0;
+}
+
+#footerText {
+    padding-top: 15px;
+    padding-left: 10px;
 }
 
 /* Mobile view */
