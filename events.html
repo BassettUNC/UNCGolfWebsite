@@ -11,6 +11,17 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/events.css">
     <script src="js/responsive-nav.js"></script>
+    <script>
+      // here, i used the DOM and event-based programming concepts to make my button functional
+      window.onload = function() {
+        var buttons = document.querySelectorAll('.add-to-calendar');
+        buttons.forEach(function(button) {
+          button.addEventListener('click', function() {
+            alert('Event added to your calendar!');
+          });
+        });
+      };
+    </script>
   </head>
   <body>
     <div id = "wrapper">
@@ -33,11 +44,11 @@
           </nav>
         </div>
       </div>
+    </div>
 
       <main id="events">
-        <h1>Schedule</h1>
+        <h1>UNC Golf App - Schedule 2024-25</h1>
 <div class="event-list">
-    <!-- Away Games -->
     <div class="event-category">
       <h2>Away Games</h2>
       <div class="event">
@@ -61,7 +72,6 @@
       </div>
     </div>
   
-    <!-- Neutral Games -->
     <div class="event-category">
       <h2>Neutral Games</h2>
       <div class="event">
@@ -82,7 +92,6 @@
       </div>
     </div>
   
-    <!-- Home Games -->
     <div class="event-category">
       <h2>Home Games</h2>
       <div class="event">

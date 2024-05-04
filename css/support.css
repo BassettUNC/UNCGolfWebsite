@@ -1,9 +1,12 @@
-:root {
-    --main-color:#4b9cd3;
-    --secondary-color:#004589;
-    --accent-color:#FACF5A;
-    --light-grey-color:#F3F3F3;
-    --text-color:#232323;
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 #support {
@@ -12,7 +15,7 @@
 }
 
 .contact-form-section h1 {
-    color: var(--text-color); 
+    color: #004d7a; 
     text-align: center;
 }
 
@@ -38,6 +41,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow: auto;
+    padding-bottom: 60px; 
 }
 
 #contactForm label {
@@ -58,7 +63,7 @@
 }
 
 .submit-button {
-    background-color: var(--main-color);
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -67,8 +72,8 @@
     font-size: 16px;
 }
 
-.submit-button:hover, .submit-button:focus {
-    background-color: var(--secondary-color);
+.submit-button:hover {
+    background-color: #0056b3;
 }
 
 footer {
@@ -76,17 +81,11 @@ footer {
     width: 100%;
     color: white;
     height: 55px;
-    position: static;
+    position: fixed;
     left: 0;
     bottom: 0;
 }
 
-#footerText {
-    padding-top: 15px;
-    padding-left: 10px;
-}
-
-/* my Desktop view */
 @media (min-width: 768px) {
     #support {
         max-width: 800px;
@@ -100,6 +99,7 @@ footer {
     #contactForm {
         max-width: 600px;
         margin: 0 auto;
+        padding-bottom: 60px;
     }
 }
 
